@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1000px;
+	background: white;
+	margin: 0 auto; 
+	padding: 25px;
+}
+.bgpic{
+	background-image: url(images/images.png);
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+.box{
+	width: 350px;
+	height: 250px;
+	background-color: rgba(182, 123, 234, 0.29);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 0px;
+	text-align: center;
+	border-radius: 30px;
+	background-position: right;
+	margin: auto;	
+}
+
+.inb{
+	width: 250px;
+	height: 40px;
+	margin: 20px 0px;
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #000;
+	font-size: 25PX;
+	text-align: center;
+}
+
+
+.inb::placeholder{
+	text-align: center;
+	font-size: 20px;
+	color: gray;
+	border:none;
+}
+.inb:focus{
+	outline: none;
+}
+
+.sec{
+	height: 250px;
+	width: 100%;
+	background: #65DAEE;
+	color: white;
+	text-align: center;
+}
+
+.dcls{
+	
+align-items: center;
+
+}
+.lbtn{
+	border:none!important;
+}
+
+.btnm{
+	height: 40px;
+	width: 150px;
+	margin-left: 10px;
+
+
+}
+.btnm:focus{
+	outline: none;
+}
+.wdiv{
+	height: 300px;
+	width: 100%;
+	background: #FCFCFC;
+	color: gray;
+	border:1px solid gray transparent;
+	display: flex;
+}
+.picm{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.tcls{
+	height: 250px;
+	width: 280px;
+	border:1px solid gray transparent;
+
+}
+.sec3{
+	height: 550px;
+	width: 100%;
+	border:1px solid gray transparent ;
+	text-align: center;
+}
+.ppic{
+	height: 250px;
+	width: 650px;
+	clip-path: polygon(0 0, 100% 0%, 100% 30%, 49% 56%, 0 31%);
+	text-align: center;
+
+}
+.sec4{
+	height: 400px;
+	width: 100%;
+	border:1px solid gray transparent;
+	background: #3C3C3C;
+	color: white;
+	text-align: center;
+}
+.man3{
+	display: flex;
+	border:1px solid red transparent ;
+}
+.pich{
+	height: 100px;
+	width: 100px;
+
+}
+.sec5{
+	background-image: url("images/images 22.jpg");
+	height: 550px;
+	width: 100%;
+	border:1px solid gray;
+	background-size: cover;
+	display: flex;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cbtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.cbtn:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+.sec6{
+	height: 550px;
+	width: 100%;
+	border:1px solid gray transparent;
+	background: #FF6C1C;
+	color: white;
+}
+.sec7{
+	height: 250px;
+	width: 100%;
+	border:1px solid gray transparent;
+	background: #3B3738;
+	color: white;
+	padding-top: 20px;
+}
+.bmap{
+	
+	width: 100% !important;
+	height: 200px !important;
+}
+.sec8{
+	height: 150px;
+	width: 100%;
+	border:1px solid gray transparent;
+	background: #3B3738;
+	color: white;
+	text-align: center;
+}
+
+.cvbody{
+	background-color: silver;
+}
+.header-bio{
+	display: justify;
+}
+
+.header-contract{
+	color: skyblue;
+}
+
+.Career-Object{
+	background: teal;
+}
+.Working-Experience{
+	background: teal;
+}
+.Educational-Qualification{
+	background: teal;
+}
+.Language-Proficiency{
+	background: teal;
+}
+.Computer-Literacy{
+	background: teal;
+}
+.Self-Assistant{
+	background: teal;
+}
+.Working-Experience{
+	background: teal;
+}
+.Certification{
+	background: teal;
+}
+.Personal-Information{
+	background: teal;
+}
+
+.slidebox{
+	margin: auto;
+	width: 100%;
+}
+.cbtn{
+	width: 250px;
+	height: 30px;
+	border: none;
+	background-color: teal !important;
+	border:2px solid red !important;
+}
+.cbtn:focus{
+	outline: none;
+}
+
+.bd{
+	display: none;
+	text-align: justify-all;
+}
